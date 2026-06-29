@@ -6,7 +6,7 @@
 /*   By: kimdos-s <kimdos-s@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/24 20:43:29 by kimdos-s          #+#    #+#             */
-/*   Updated: 2026/06/25 15:45:47 by kimdos-s         ###   ########.fr       */
+/*   Updated: 2026/06/29 13:31:25 by kimdos-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,12 @@
 #  define BUFFER_SIZE 42
 # endif
 
+# ifndef OPEN_MAX
+#  define OPEN_MAX 1024
+# endif
+
 # include <stdlib.h>
 # include <unistd.h>
-# include <limits.h>
 # include <fcntl.h>
 # include <stdio.h>
 

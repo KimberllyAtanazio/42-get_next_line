@@ -6,7 +6,7 @@
 /*   By: kimdos-s <kimdos-s@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/24 20:42:34 by kimdos-s          #+#    #+#             */
-/*   Updated: 2026/06/25 22:53:37 by kimdos-s         ###   ########.fr       */
+/*   Updated: 2026/06/29 13:24:52 by kimdos-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,7 @@ char	*get_next_line(int fd)
 	return (extract_line(&stash[fd]));
 }
 
-/* int	main(void)
+int	main(void)
 {
 	int	fd1;
 	int	fd2;
@@ -86,4 +86,4 @@ char	*get_next_line(int fd)
 	close(fd1);
 	close(fd2);
 	return (0);
-} */
+}
